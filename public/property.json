@@ -1,0 +1,385 @@
+[
+  {
+    "PropertyID": "1",
+    "Overview": {
+      "PropertyType": "Apartment",
+      "Bedrooms": 1,
+      "Bathrooms": 2,
+      "Garage": 1,
+      "SquareFeet": 2149,
+      "YearBuilt": 2016
+    },
+    "featureImage": "feature_image.jpg",
+    "groupImages": ["image1.jpg", "image2.jpg", "image3.jpg"],
+    "Description": "Spacious apartment with modern amenities and great location.",
+    "Category": "Sell",
+    "Address": {
+      "Street": "4885 N Francisco Ave",
+      "City": "Chicago",
+      "StateCounty": "Illinois",
+      "ZipPostalCode": "60625",
+      "Area": "Albany Park",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$500,000",
+      "PropertySize": "2149 Sq Ft",
+      "Bedrooms": 1,
+      "Bathrooms": 2,
+      "Garage": 1,
+      "GarageSize": "200 SqFt",
+      "YearBuilt": 2016,
+      "PropertyType": "Apartment",
+      "PropertyStatus": "For Sale"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Barbeque",
+      "Dryer",
+      "Gym",
+      "Laundry",
+      "Lawn",
+      "Microwave",
+      "Outdoor Shower",
+      "Refrigerator",
+      "Sauna",
+      "Swimming Pool",
+      "TV Cable",
+      "Washer",
+      "WiFi",
+      "Window Coverings"
+    ],
+    "Agent": {
+      "Name": "John Doe",
+      "AgentID": "A12345",
+      "Image": "agent_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "2",
+    "Overview": {
+      "PropertyType": "House",
+      "Bedrooms": 3,
+      "Bathrooms": 2,
+      "Garage": 2,
+      "SquareFeet": 1800,
+      "YearBuilt": 2018
+    },
+    "featureImage": "house_feature.jpg",
+    "groupImages": ["house1.jpg", "house2.jpg", "house3.jpg"],
+    "Description": "Modern house with a large backyard and open floor plan.",
+    "Category": "Rent",
+    "Address": {
+      "Street": "123 Main St",
+      "City": "Los Angeles",
+      "StateCounty": "California",
+      "ZipPostalCode": "90001",
+      "Area": "Downtown",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$3,000/month",
+      "PropertySize": "1800 Sq Ft",
+      "Bedrooms": 3,
+      "Bathrooms": 2,
+      "Garage": 2,
+      "GarageSize": "300 SqFt",
+      "YearBuilt": 2018,
+      "PropertyType": "House",
+      "PropertyStatus": "For Rent"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Garden",
+      "Laundry",
+      "Refrigerator",
+      "Swimming Pool",
+      "TV Cable",
+      "WiFi"
+    ],
+    "Agent": {
+      "Name": "Jane Smith",
+      "AgentID": "A67890",
+      "Image": "agent2_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "3",
+    "Overview": {
+      "PropertyType": "Condo",
+      "Bedrooms": 2,
+      "Bathrooms": 1,
+      "Garage": 1,
+      "SquareFeet": 1200,
+      "YearBuilt": 2015
+    },
+    "featureImage": "condo_feature.jpg",
+    "groupImages": ["condo1.jpg", "condo2.jpg", "condo3.jpg"],
+    "Description": "Stylish condo in a high-rise building with city views.",
+    "Category": "Sell",
+    "Address": {
+      "Street": "456 Oak Lane",
+      "City": "San Francisco",
+      "StateCounty": "California",
+      "ZipPostalCode": "94103",
+      "Area": "SoMa",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$750,000",
+      "PropertySize": "1200 Sq Ft",
+      "Bedrooms": 2,
+      "Bathrooms": 1,
+      "Garage": 1,
+      "GarageSize": "150 SqFt",
+      "YearBuilt": 2015,
+      "PropertyType": "Condo",
+      "PropertyStatus": "For Sale"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Dryer",
+      "Gym",
+      "Laundry",
+      "Microwave",
+      "TV Cable",
+      "WiFi"
+    ],
+    "Agent": {
+      "Name": "John Doe",
+      "AgentID": "A12345",
+      "Image": "agent_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "4",
+    "Overview": {
+      "PropertyType": "Apartment",
+      "Bedrooms": 2,
+      "Bathrooms": 1,
+      "Garage": 0,
+      "SquareFeet": 900,
+      "YearBuilt": 2010
+    },
+    "featureImage": "apartment_feature.jpg",
+    "groupImages": ["apartment1.jpg", "apartment2.jpg", "apartment3.jpg"],
+    "Description": "Cozy apartment in a family-friendly neighborhood.",
+    "Category": "Rent",
+    "Address": {
+      "Street": "789 Pine Street",
+      "City": "Seattle",
+      "StateCounty": "Washington",
+      "ZipPostalCode": "98101",
+      "Area": "Capitol Hill",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$1,500/month",
+      "PropertySize": "900 Sq Ft",
+      "Bedrooms": 2,
+      "Bathrooms": 1,
+      "Garage": 0,
+      "GarageSize": "N/A",
+      "YearBuilt": 2010,
+      "PropertyType": "Apartment",
+      "PropertyStatus": "For Rent"
+    },
+    "Features": ["Air Conditioning", "Gym", "Laundry", "Refrigerator", "WiFi"],
+    "Agent": {
+      "Name": "Jane Smith",
+      "AgentID": "A67890",
+      "Image": "agent2_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "5",
+    "Overview": {
+      "PropertyType": "Villa",
+      "Bedrooms": 5,
+      "Bathrooms": 4,
+      "Garage": 3,
+      "SquareFeet": 5000,
+      "YearBuilt": 2020
+    },
+    "featureImage": "villa_feature.jpg",
+    "groupImages": ["villa1.jpg", "villa2.jpg", "villa3.jpg"],
+    "Description": "Luxury villa with private pool and stunning architecture.",
+    "Category": "Sell",
+    "Address": {
+      "Street": "159 Elm Drive",
+      "City": "Miami",
+      "StateCounty": "Florida",
+      "ZipPostalCode": "33101",
+      "Area": "Coconut Grove",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$2,000,000",
+      "PropertySize": "5000 Sq Ft",
+      "Bedrooms": 5,
+      "Bathrooms": 4,
+      "Garage": 3,
+      "GarageSize": "500 SqFt",
+      "YearBuilt": 2020,
+      "PropertyType": "Villa",
+      "PropertyStatus": "For Sale"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Barbeque",
+      "Dryer",
+      "Gym",
+      "Lawn",
+      "Microwave",
+      "Outdoor Shower",
+      "Refrigerator",
+      "Sauna",
+      "Swimming Pool",
+      "TV Cable",
+      "Washer",
+      "WiFi",
+      "Window Coverings"
+    ],
+    "Agent": {
+      "Name": "Michael Johnson",
+      "AgentID": "A56789",
+      "Image": "agent5_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "6",
+    "Overview": {
+      "PropertyType": "Studio",
+      "Bedrooms": 0,
+      "Bathrooms": 1,
+      "Garage": 0,
+      "SquareFeet": 450,
+      "YearBuilt": 2005
+    },
+    "featureImage": "studio_feature.jpg",
+    "groupImages": ["studio1.jpg", "studio2.jpg", "studio3.jpg"],
+    "Description": "Affordable studio apartment in the heart of the city.",
+    "Category": "Rent",
+    "Address": {
+      "Street": "300 Market Street",
+      "City": "Denver",
+      "StateCounty": "Colorado",
+      "ZipPostalCode": "80202",
+      "Area": "Downtown",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$1,200/month",
+      "PropertySize": "450 Sq Ft",
+      "Bedrooms": 0,
+      "Bathrooms": 1,
+      "Garage": 0,
+      "GarageSize": "N/A",
+      "YearBuilt": 2005,
+      "PropertyType": "Studio",
+      "PropertyStatus": "For Rent"
+    },
+    "Features": ["Air Conditioning", "Gym", "Refrigerator", "WiFi", "TV Cable"],
+    "Agent": {
+      "Name": "Emily Davis",
+      "AgentID": "A91011",
+      "Image": "agent6_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "7",
+    "Overview": {
+      "PropertyType": "Townhouse",
+      "Bedrooms": 3,
+      "Bathrooms": 3,
+      "Garage": 1,
+      "SquareFeet": 2500,
+      "YearBuilt": 2019
+    },
+    "featureImage": "townhouse_feature.jpg",
+    "groupImages": ["townhouse1.jpg", "townhouse2.jpg", "townhouse3.jpg"],
+    "Description": "Elegant townhouse with modern design and private patio.",
+    "Category": "Sell",
+    "Address": {
+      "Street": "175 Birch Road",
+      "City": "Austin",
+      "StateCounty": "Texas",
+      "ZipPostalCode": "73301",
+      "Area": "South Austin",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$850,000",
+      "PropertySize": "2500 Sq Ft",
+      "Bedrooms": 3,
+      "Bathrooms": 3,
+      "Garage": 1,
+      "GarageSize": "250 SqFt",
+      "YearBuilt": 2019,
+      "PropertyType": "Townhouse",
+      "PropertyStatus": "For Sale"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Lawn",
+      "Refrigerator",
+      "Microwave",
+      "Washer",
+      "WiFi",
+      "TV Cable"
+    ],
+    "Agent": {
+      "Name": "John Doe",
+      "AgentID": "A12345",
+      "Image": "agent_image.jpg"
+    }
+  },
+  {
+    "PropertyID": "8",
+    "Overview": {
+      "PropertyType": "Penthouse",
+      "Bedrooms": 4,
+      "Bathrooms": 4,
+      "Garage": 2,
+      "SquareFeet": 4000,
+      "YearBuilt": 2021
+    },
+    "featureImage": "penthouse_feature.jpg",
+    "groupImages": ["penthouse1.jpg", "penthouse2.jpg", "penthouse3.jpg"],
+    "Description": "Luxury penthouse with panoramic views of the skyline.",
+    "Category": "Rent",
+    "Address": {
+      "Street": "89 Luxury Lane",
+      "City": "New York",
+      "StateCounty": "New York",
+      "ZipPostalCode": "10001",
+      "Area": "Manhattan",
+      "Country": "United States"
+    },
+    "Details": {
+      "Price": "$15,000/month",
+      "PropertySize": "4000 Sq Ft",
+      "Bedrooms": 4,
+      "Bathrooms": 4,
+      "Garage": 2,
+      "GarageSize": "400 SqFt",
+      "YearBuilt": 2021,
+      "PropertyType": "Penthouse",
+      "PropertyStatus": "For Rent"
+    },
+    "Features": [
+      "Air Conditioning",
+      "Sauna",
+      "Gym",
+      "Swimming Pool",
+      "Refrigerator",
+      "TV Cable",
+      "WiFi"
+    ],
+    "Agent": {
+      "Name": "Jane Smith",
+      "AgentID": "A67890",
+      "Image": "agent2_image.jpg"
+    }
+  }
+]

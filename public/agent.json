@@ -1,0 +1,35 @@
+[
+  {
+    "AgentID": "A11223",
+    "Name": "Samuel Palmer",
+    "Company": "Modern House Real Estate",
+    "Role": "Company Agent",
+    "Office": "321 456 9865",
+    "Mobile": "321 456 9874",
+    "Fax": "897 654 5487",
+    "Email": "samuel@houzez.com",
+    "Image": "samuel_image.jpg"
+  },
+  {
+    "AgentID": "A33445",
+    "Name": "Olivia Green",
+    "Company": "Skyline Realty",
+    "Role": "Senior Real Estate Agent",
+    "Office": "345 678 9123",
+    "Mobile": "345 678 9124",
+    "Fax": "908 765 4321",
+    "Email": "olivia@skyline.com",
+    "Image": "olivia_image.jpg"
+  },
+  {
+    "AgentID": "A55667",
+    "Name": "Liam Brown",
+    "Company": "Prime Properties",
+    "Role": "Real Estate Consultant",
+    "Office": "678 912 3456",
+    "Mobile": "678 912 3457",
+    "Fax": "890 123 4567",
+    "Email": "liam@primeproperties.com",
+    "Image": "liam_image.jpg"
+  }
+]
