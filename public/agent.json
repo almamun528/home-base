@@ -8,8 +8,11 @@
     "Mobile": "321 456 9874",
     "Fax": "897 654 5487",
     "Email": "samuel@houzez.com",
-    "Image": "samuel_image.jpg"
+    "Image": "https://i.ibb.co.com/5YVJbxq/agent-3.jpg"
   },
+  
+
+
   {
     "AgentID": "A33445",
     "Name": "Olivia Green",
@@ -19,7 +22,7 @@
     "Mobile": "345 678 9124",
     "Fax": "908 765 4321",
     "Email": "olivia@skyline.com",
-    "Image": "olivia_image.jpg"
+    "Image": "https://i.ibb.co.com/THNJnkP/agent-4.jpg"
   },
   {
     "AgentID": "A55667",
@@ -30,6 +33,6 @@
     "Mobile": "678 912 3457",
     "Fax": "890 123 4567",
     "Email": "liam@primeproperties.com",
-    "Image": "liam_image.jpg"
+    "Image": "https://i.ibb.co.com/2ZL2tMT/Artboard-2team.jpg"
   }
 ]

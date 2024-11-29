@@ -9,7 +9,7 @@
       "SquareFeet": 2149,
       "YearBuilt": 2016
     },
-    "featureImage": "feature_image.jpg",
+    "featureImage": "https://i.ibb.co.com/zmHdRc0/property1.jpg",
     "groupImages": ["image1.jpg", "image2.jpg", "image3.jpg"],
     "Description": "Spacious apartment with modern amenities and great location.",
     "Category": "Sell",
@@ -65,7 +65,7 @@
       "SquareFeet": 1800,
       "YearBuilt": 2018
     },
-    "featureImage": "house_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/rv9Z26Q/property2.jpg",
     "groupImages": ["house1.jpg", "house2.jpg", "house3.jpg"],
     "Description": "Modern house with a large backyard and open floor plan.",
     "Category": "Rent",
@@ -113,7 +113,7 @@
       "SquareFeet": 1200,
       "YearBuilt": 2015
     },
-    "featureImage": "condo_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/JsG9pTZ/property3.jpg",
     "groupImages": ["condo1.jpg", "condo2.jpg", "condo3.jpg"],
     "Description": "Stylish condo in a high-rise building with city views.",
     "Category": "Sell",
@@ -161,7 +161,7 @@
       "SquareFeet": 900,
       "YearBuilt": 2010
     },
-    "featureImage": "apartment_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/4NwkSPV/property4.jpg",
     "groupImages": ["apartment1.jpg", "apartment2.jpg", "apartment3.jpg"],
     "Description": "Cozy apartment in a family-friendly neighborhood.",
     "Category": "Rent",
@@ -201,7 +201,7 @@
       "SquareFeet": 5000,
       "YearBuilt": 2020
     },
-    "featureImage": "villa_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/brMqFxb/property10.jpg",
     "groupImages": ["villa1.jpg", "villa2.jpg", "villa3.jpg"],
     "Description": "Luxury villa with private pool and stunning architecture.",
     "Category": "Sell",
@@ -256,7 +256,7 @@
       "SquareFeet": 450,
       "YearBuilt": 2005
     },
-    "featureImage": "studio_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/fC3cYWQ/property5.jpg",
     "groupImages": ["studio1.jpg", "studio2.jpg", "studio3.jpg"],
     "Description": "Affordable studio apartment in the heart of the city.",
     "Category": "Rent",
@@ -296,7 +296,7 @@
       "SquareFeet": 2500,
       "YearBuilt": 2019
     },
-    "featureImage": "townhouse_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/6wpkLT6/property6.jpg",
     "groupImages": ["townhouse1.jpg", "townhouse2.jpg", "townhouse3.jpg"],
     "Description": "Elegant townhouse with modern design and private patio.",
     "Category": "Sell",
@@ -344,7 +344,7 @@
       "SquareFeet": 4000,
       "YearBuilt": 2021
     },
-    "featureImage": "penthouse_feature.jpg",
+    "featureImage": "https://i.ibb.co.com/3MdnRGw/property7.jpg",
     "groupImages": ["penthouse1.jpg", "penthouse2.jpg", "penthouse3.jpg"],
     "Description": "Luxury penthouse with panoramic views of the skyline.",
     "Category": "Rent",
@@ -383,3 +383,5 @@
     }
   }
 ]
+
+
