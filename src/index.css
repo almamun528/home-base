@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/**
+* colors 
+main colors  :bg-[#1F4529] 
+hover: hover:bg-[#47663B]
+*/

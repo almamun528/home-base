@@ -1,6 +1,6 @@
 [
   {
-    "PropertyID": "1",
+    "PropertyID": 1,
     "Overview": {
       "PropertyType": "Apartment",
       "Bedrooms": 1,
@@ -11,7 +11,7 @@
     },
     "featureImage": "https://i.ibb.co.com/zmHdRc0/property1.jpg",
     "groupImages": ["image1.jpg", "image2.jpg", "image3.jpg"],
-    "Description": "Spacious apartment with modern amenities and great location.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Sell",
     "Address": {
       "Street": "4885 N Francisco Ave",
@@ -50,13 +50,19 @@
       "Window Coverings"
     ],
     "Agent": {
-      "Name": "John Doe",
-      "AgentID": "A12345",
-      "Image": "agent_image.jpg"
+      "AgentID": "A33445",
+      "Name": "Olivia Green",
+      "Company": "Skyline Realty",
+      "Role": "Senior Real Estate Agent",
+      "Office": "345 678 9123",
+      "Mobile": "345 678 9124",
+      "Fax": "908 765 4321",
+      "Email": "olivia@skyline.com",
+      "Image": "https://i.ibb.co.com/THNJnkP/agent-4.jpg"
     }
   },
   {
-    "PropertyID": "2",
+    "PropertyID": 2,
     "Overview": {
       "PropertyType": "House",
       "Bedrooms": 3,
@@ -67,7 +73,7 @@
     },
     "featureImage": "https://i.ibb.co.com/rv9Z26Q/property2.jpg",
     "groupImages": ["house1.jpg", "house2.jpg", "house3.jpg"],
-    "Description": "Modern house with a large backyard and open floor plan.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Rent",
     "Address": {
       "Street": "123 Main St",
@@ -98,13 +104,19 @@
       "WiFi"
     ],
     "Agent": {
-      "Name": "Jane Smith",
-      "AgentID": "A67890",
-      "Image": "agent2_image.jpg"
+      "AgentID": "A11223",
+      "Name": "Samuel Palmer",
+      "Company": "Modern House Real Estate",
+      "Role": "Company Agent",
+      "Office": "321 456 9865",
+      "Mobile": "321 456 9874",
+      "Fax": "897 654 5487",
+      "Email": "samuel@houzez.com",
+      "Image": "https://i.ibb.co.com/5YVJbxq/agent-3.jpg"
     }
   },
   {
-    "PropertyID": "3",
+    "PropertyID": 3,
     "Overview": {
       "PropertyType": "Condo",
       "Bedrooms": 2,
@@ -115,7 +127,7 @@
     },
     "featureImage": "https://i.ibb.co.com/JsG9pTZ/property3.jpg",
     "groupImages": ["condo1.jpg", "condo2.jpg", "condo3.jpg"],
-    "Description": "Stylish condo in a high-rise building with city views.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Sell",
     "Address": {
       "Street": "456 Oak Lane",
@@ -146,13 +158,19 @@
       "WiFi"
     ],
     "Agent": {
-      "Name": "John Doe",
-      "AgentID": "A12345",
-      "Image": "agent_image.jpg"
+      "AgentID": "A11223",
+      "Name": "Samuel Palmer",
+      "Company": "Modern House Real Estate",
+      "Role": "Company Agent",
+      "Office": "321 456 9865",
+      "Mobile": "321 456 9874",
+      "Fax": "897 654 5487",
+      "Email": "samuel@houzez.com",
+      "Image": "https://i.ibb.co.com/5YVJbxq/agent-3.jpg"
     }
   },
   {
-    "PropertyID": "4",
+    "PropertyID": 4,
     "Overview": {
       "PropertyType": "Apartment",
       "Bedrooms": 2,
@@ -163,7 +181,7 @@
     },
     "featureImage": "https://i.ibb.co.com/4NwkSPV/property4.jpg",
     "groupImages": ["apartment1.jpg", "apartment2.jpg", "apartment3.jpg"],
-    "Description": "Cozy apartment in a family-friendly neighborhood.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Rent",
     "Address": {
       "Street": "789 Pine Street",
@@ -186,13 +204,19 @@
     },
     "Features": ["Air Conditioning", "Gym", "Laundry", "Refrigerator", "WiFi"],
     "Agent": {
-      "Name": "Jane Smith",
-      "AgentID": "A67890",
-      "Image": "agent2_image.jpg"
+      "AgentID": "A11223",
+      "Name": "Samuel Palmer",
+      "Company": "Modern House Real Estate",
+      "Role": "Company Agent",
+      "Office": "321 456 9865",
+      "Mobile": "321 456 9874",
+      "Fax": "897 654 5487",
+      "Email": "samuel@houzez.com",
+      "Image": "https://i.ibb.co.com/5YVJbxq/agent-3.jpg"
     }
   },
   {
-    "PropertyID": "5",
+    "PropertyID": 5,
     "Overview": {
       "PropertyType": "Villa",
       "Bedrooms": 5,
@@ -203,7 +227,7 @@
     },
     "featureImage": "https://i.ibb.co.com/brMqFxb/property10.jpg",
     "groupImages": ["villa1.jpg", "villa2.jpg", "villa3.jpg"],
-    "Description": "Luxury villa with private pool and stunning architecture.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Sell",
     "Address": {
       "Street": "159 Elm Drive",
@@ -241,13 +265,19 @@
       "Window Coverings"
     ],
     "Agent": {
-      "Name": "Michael Johnson",
-      "AgentID": "A56789",
-      "Image": "agent5_image.jpg"
+      "AgentID": "A33445",
+      "Name": "Olivia Green",
+      "Company": "Skyline Realty",
+      "Role": "Senior Real Estate Agent",
+      "Office": "345 678 9123",
+      "Mobile": "345 678 9124",
+      "Fax": "908 765 4321",
+      "Email": "olivia@skyline.com",
+      "Image": "https://i.ibb.co.com/THNJnkP/agent-4.jpg"
     }
   },
   {
-    "PropertyID": "6",
+    "PropertyID": 6,
     "Overview": {
       "PropertyType": "Studio",
       "Bedrooms": 0,
@@ -258,7 +288,7 @@
     },
     "featureImage": "https://i.ibb.co.com/fC3cYWQ/property5.jpg",
     "groupImages": ["studio1.jpg", "studio2.jpg", "studio3.jpg"],
-    "Description": "Affordable studio apartment in the heart of the city.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Rent",
     "Address": {
       "Street": "300 Market Street",
@@ -281,13 +311,19 @@
     },
     "Features": ["Air Conditioning", "Gym", "Refrigerator", "WiFi", "TV Cable"],
     "Agent": {
-      "Name": "Emily Davis",
-      "AgentID": "A91011",
-      "Image": "agent6_image.jpg"
+      "AgentID": "A33445",
+      "Name": "Olivia Green",
+      "Company": "Skyline Realty",
+      "Role": "Senior Real Estate Agent",
+      "Office": "345 678 9123",
+      "Mobile": "345 678 9124",
+      "Fax": "908 765 4321",
+      "Email": "olivia@skyline.com",
+      "Image": "https://i.ibb.co.com/THNJnkP/agent-4.jpg"
     }
   },
   {
-    "PropertyID": "7",
+    "PropertyID": 7,
     "Overview": {
       "PropertyType": "Townhouse",
       "Bedrooms": 3,
@@ -329,13 +365,19 @@
       "TV Cable"
     ],
     "Agent": {
-      "Name": "John Doe",
-      "AgentID": "A12345",
-      "Image": "agent_image.jpg"
+      "AgentID": "A55667",
+      "Name": "Liam Brown",
+      "Company": "Prime Properties",
+      "Role": "Real Estate Consultant",
+      "Office": "678 912 3456",
+      "Mobile": "678 912 3457",
+      "Fax": "890 123 4567",
+      "Email": "liam@primeproperties.com",
+      "Image": "https://i.ibb.co.com/2ZL2tMT/Artboard-2team.jpg"
     }
   },
   {
-    "PropertyID": "8",
+    "PropertyID": 8,
     "Overview": {
       "PropertyType": "Penthouse",
       "Bedrooms": 4,
@@ -346,7 +388,7 @@
     },
     "featureImage": "https://i.ibb.co.com/3MdnRGw/property7.jpg",
     "groupImages": ["penthouse1.jpg", "penthouse2.jpg", "penthouse3.jpg"],
-    "Description": "Luxury penthouse with panoramic views of the skyline.",
+    "Description": "Cozy apartment in a family-friendly neighborhood Nestled in the heart of Green Valley, this modern 4-bedroom family home is a perfect blend of style, comfort, and functionality. Boasting a spacious layout of 2,400 sq. ft., this property offers ample living space for families of all sizes. The open-concept design seamlessly connects the living, dining, and kitchen areas, making it ideal for both everyday living and entertaining guests.Step inside to find high-end finishes, including hardwood floors, large energy-efficient windows that fill the space with natural light, and a chef’s kitchen with state-of-the-art stainless steel appliances and granite countertops. The luxurious master suite features a walk-in closet and an en-suite bathroom complete with a soaking tub and dual vanities.",
     "Category": "Rent",
     "Address": {
       "Street": "89 Luxury Lane",
@@ -377,9 +419,15 @@
       "WiFi"
     ],
     "Agent": {
-      "Name": "Jane Smith",
-      "AgentID": "A67890",
-      "Image": "agent2_image.jpg"
+      "AgentID": "A55667",
+      "Name": "Liam Brown",
+      "Company": "Prime Properties",
+      "Role": "Real Estate Consultant",
+      "Office": "678 912 3456",
+      "Mobile": "678 912 3457",
+      "Fax": "890 123 4567",
+      "Email": "liam@primeproperties.com",
+      "Image": "https://i.ibb.co.com/2ZL2tMT/Artboard-2team.jpg"
     }
   }
 ]

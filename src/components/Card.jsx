@@ -8,7 +8,7 @@ const Card = () => {
       {loadProperty &&
         loadProperty.map((property, index) => (
           <section
-            className="border-2 border-gray-200 p-4 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-200"
+            className="border-2  border-gray-300 p-4 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-200"
             key={index}
           >
             <picture className="flex items-center justify-center">
@@ -35,8 +35,8 @@ const Card = () => {
                 <p>Year Built: {property?.Overview?.YearBuilt || "N/A"}</p>
               </div>
               <Link to={`/propertyDetails/${property.PropertyID}`}>
-                <button className="btn hover:bg-red-800 bg-red-500 mt-3 px-10 text-white">
-                  button
+                <button className="border-none mt-3 btn-primary btn bg-[#1F4529] text-gray-300 hover:bg-[#47663B] ">
+                  View Details
                 </button>
               </Link>
             </div>
