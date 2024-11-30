@@ -14,9 +14,7 @@ const NavBar = () => {
       <li><Link to='login'> Agents </Link></li>
     </>
   );
-  const handleOpen =()=>{
-    
-  }
+
     return (
       <>
         <section className="w-full bg-base-100 sticky top-0 z-50 border-2 border-b-[#1F4529]">
@@ -59,18 +57,9 @@ const NavBar = () => {
                 <ul className="menu menu-horizontal px-1">{links}</ul>
               </div>
               <div className="navbar-end">
-                <span className="p-3 bg-red-600 rounded-full relative">
+                <span className="p-3 border-2 border-green-700 border-solid rounded-full">
                   <FaUser className="text-3xl"></FaUser>
                 </span>
-                <MdMenuOpen
-                  className="text-2xl text-white absolute  bottom-3 right-2  md:right-40"
-                  onClick={handleOpen}
-                />
-                <ul className="absolute z-40 hidden -bottom-20">
-                  <li>Login One</li>
-                  <li>Login One</li>
-                  <li>Login One</li>
-                </ul>
               </div>
             </div>
           </main>
