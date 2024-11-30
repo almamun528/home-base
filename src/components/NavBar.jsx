@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MdMenuOpen, MdOutlineRealEstateAgent } from "react-icons/md";
+import {  MdOutlineRealEstateAgent } from "react-icons/md";
 import { FaUser } from 'react-icons/fa';
+import { FaArrowPointer } from 'react-icons/fa6';
+import { HiCursorClick } from 'react-icons/hi';
+
 
 
 const NavBar = () => {
@@ -57,10 +60,17 @@ const NavBar = () => {
                 <ul className="menu menu-horizontal px-1">{links}</ul>
               </div>
               <div className="navbar-end">
-                <span className="p-3 border-2 border-green-700 border-solid rounded-full">
+                <span className="p-3 border-2 border-green-700 border-solid rounded-full relative">
                   <FaUser className="text-3xl"></FaUser>
                 </span>
+                  
+                  <button className=' absolute'> 
+
+                  <HiCursorClick className='text-red-600 -ml-5 text-lg'/>
+
+                  </button>
               </div>
+              {/* CiLocationArrow1 */}
             </div>
           </main>
         </section>
