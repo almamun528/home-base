@@ -1,16 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MdOutlineRealEstateAgent } from "react-icons/md";
+import { MdMenuOpen, MdOutlineRealEstateAgent } from "react-icons/md";
+import { FaUser } from 'react-icons/fa';
 
 
 const NavBar = () => {
+
   const links = (
     <>
       <li><Link to='/'> Home </Link></li>
       <li><Link to='card'> Property </Link></li>
       <li><Link to='agents'> Agents </Link></li>
+      <li><Link to='login'> Agents </Link></li>
     </>
   );
+  const handleOpen =()=>{
+    
+  }
     return (
       <>
         <section className="w-full bg-base-100 sticky top-0 z-50 border-2 border-b-[#1F4529]">
@@ -53,7 +59,18 @@ const NavBar = () => {
                 <ul className="menu menu-horizontal px-1">{links}</ul>
               </div>
               <div className="navbar-end">
-                <a className="btn">Button</a>
+                <span className="p-3 bg-red-600 rounded-full relative">
+                  <FaUser className="text-3xl"></FaUser>
+                </span>
+                <MdMenuOpen
+                  className="text-2xl text-white absolute  bottom-3 right-2  md:right-40"
+                  onClick={handleOpen}
+                />
+                <ul className="absolute z-40 hidden -bottom-20">
+                  <li>Login One</li>
+                  <li>Login One</li>
+                  <li>Login One</li>
+                </ul>
               </div>
             </div>
           </main>

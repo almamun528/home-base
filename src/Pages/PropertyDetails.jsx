@@ -4,9 +4,9 @@ import { LuBedSingle } from "react-icons/lu";
 import { FaBath, FaRegSquare } from "react-icons/fa";
 import { GiHomeGarage } from "react-icons/gi";
 import { SlCalender } from "react-icons/sl";
-
+import banner from '../assets/hero-img.png'
 const PropertyDetails = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   const [property, setProperty] = useState([]);
   const propertyDetails = useParams();
   const idNumber = propertyDetails.id;
@@ -20,47 +20,26 @@ const PropertyDetails = () => {
 
   const proper = property.find((item) => item.PropertyID == propertyIdNumber);
 
-  const handleForm = e=>{
-    e.preventDefault()
-  
-  }
+  const handleForm = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <section className="">
         <section className="py-4">
           <main className="w-10/12 mx-auto">
-            <picture className="relative">
+            <picture>
               <img
-                className="w-full md:h-[600px] object-cover "
+                className="w-full md:h-[600px]  object-cover "
                 src={proper?.featureImage}
                 alt=""
               />
-              <div className="absolute bg-[#00000053]  h-[100%] w-[100%] top-0 bottom-0 p-3">
-                <div className="absolute bottom-5 left-5 md:space-y-3 h-fit bg-[#00000092] p-2 md:p-3 rounded">
-                  <p className="flex items-center gap-2 text-white text-lg md:text-3xl md:gap-4">
-                    Bedrooms: <LuBedSingle /> {proper?.Overview?.Bedrooms}{" "}
-                  </p>
-                  <p className="flex items-center gap-2 text-white text-lg md:text-3xl md:gap-4">
-                    Bathrooms:<FaBath></FaBath> {proper?.Overview?.Bathrooms}{" "}
-                  </p>
-                  <p className="flex items-center gap-2 text-white text-lg md:text-3xl md:gap-4">
-                    Garage: <GiHomeGarage /> {proper?.Overview?.Garage}{" "}
-                  </p>
-                  <p className="flex items-center gap-2 text-white text-lg md:text-3xl md:gap-4">
-                    SquareFeet: <FaRegSquare></FaRegSquare>
-                    {proper?.Overview?.SquareFeet}{" "}
-                  </p>
-                  <p className="flex items-center gap-2 text-white text-lg md:text-3xl md:gap-4">
-                    YearBuilt: <SlCalender /> {proper?.Overview?.YearBuilt}{" "}
-                  </p>
-                </div>
-              </div>
             </picture>
-        
+
             <p className="md:my-4 mt-6">
               <b>Description</b> : {proper?.Description}
             </p>
-              <br />
+            <br />
             <p className="text-3xl w-fit">
               This property is for :{" "}
               <span className="font-bold text-[#47663B]">
@@ -120,7 +99,7 @@ const PropertyDetails = () => {
               {/* Agents */}
               <div className="agent space-y-2 md:space-y-3">
                 <h2 className="text-lg md:text-xl md:font-bold font-semibold mt-4 md:mt-0">
-                  Agent
+                Agent
                 </h2>
                 <img
                   className="h-36 w-36 rounded-full border-2 border-solidborder-[#47663B]"
@@ -150,12 +129,41 @@ const PropertyDetails = () => {
                 </Link>
               </div>
               <div className="Form mt-10 md:mt-0">
+                <div className="">
+                  <h2 className="text-lg md:text-xl md:font-bold font-semibold mt-4 md:mt-0">
+                    Overview
+                  </h2>{" "}
+                  <br />
+                  <p className="flex items-center gap-2 text-gray-500 ">
+                    Bedrooms: <LuBedSingle /> {proper?.Overview?.Bedrooms}{" "}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-500 my-1  ">
+                    Bathrooms:<FaBath></FaBath> {proper?.Overview?.Bathrooms}{" "}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-500 my-1  ">
+                    Garage: <GiHomeGarage /> {proper?.Overview?.Garage}{" "}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-500 my-1  ">
+                    SquareFeet: <FaRegSquare></FaRegSquare>
+                    {proper?.Overview?.SquareFeet}{" "}
+                  </p>
+                  <p className="flex items-center gap-2 text-gray-500 my-1  ">
+                    YearBuilt: <SlCalender /> {proper?.Overview?.YearBuilt}{" "}
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <div className="divider divider-success"></div>
+            <br />
+            {/* bottom part form and image gallery */}
+            <section className="bottom part md:grid md:grid-cols-12">
+              <div className="left md:col-span-5">
                 <h2 className="text-lg md:text-xl md:font-bold font-semibold mt-4 md:mt-0">
                   Send Mail To {proper?.Agent?.Name}{" "}
                 </h2>
-
-                <div className="divider divider-success"></div>
                 <br />
+
                 <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                   <form onSubmit={handleForm} className="card-body">
                     <div className="form-control">
@@ -214,6 +222,10 @@ const PropertyDetails = () => {
                     </div>
                   </form>
                 </div>
+              </div>
+              <div className="right mt-10 md:mt-0  md:col-span-7 ">
+                {" "}
+                <img className="w-full mx-auto" src={banner} alt="" />{" "}
               </div>
             </section>
           </main>
