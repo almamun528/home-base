@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../components/Banner';
 import Feature from '../components/Feature';
 import Country from '../components/Country';
+import BoxItem from '../components/BoxItem';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         {/* Country Image */}
         <Country/>
         </section>
+        <BoxItem/>
       </>
     );
 };
