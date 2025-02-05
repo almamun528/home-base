@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {  MdOutlineRealEstateAgent } from "react-icons/md";
 import { FaUser } from 'react-icons/fa';
-import { FaArrowPointer } from 'react-icons/fa6';
 import { HiCursorClick } from 'react-icons/hi';
 
 
@@ -14,7 +13,6 @@ const NavBar = () => {
       <li><Link to='/'> Home </Link></li>
       <li><Link to='card'> Property </Link></li>
       <li><Link to='agents'> Agents </Link></li>
-      <li><Link to='login'> Agents </Link></li>
     </>
   );
 

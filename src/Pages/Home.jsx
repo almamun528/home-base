@@ -1,15 +1,13 @@
 import React from 'react';
+import Banner from '../components/Banner';
 
 
 const Home = () => {
     return (
       <>
         <section>
-          <b>this is Home page</b>
-
-          <br />
-          <br />
-        
+        <Banner/>
+        {/* Card Section */}
         </section>
       </>
     );
